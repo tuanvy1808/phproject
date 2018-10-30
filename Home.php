@@ -4,14 +4,15 @@
   <title>Home page</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="bootstrap-4.1.3-dist/js/jquery-3.3.1.min.js" type="text/javascript"></script>
   <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js" type="text/javascript"></script>
   <link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
   <link href="bootstrap-4.1.3-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
   <script src="bootstrap-4.1.3-dist/js/popper.min.js" type="text/javascript"></script>
-  <script src="bootstrap-4.1.3-dist/js/jquery-3.3.1.min.js" type="text/javascript"></script>
+  
   <style>
 .header{
-     background-image: url("img/header1.jpg");
+    
    
 }
 

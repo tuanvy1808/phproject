@@ -1,0 +1,108 @@
+/* Remove the navbar's default rounded borders and increase the bottom margin */ 
+body{
+    background: #fff;
+    font-family: tahoma;
+}
+
+.header2 {
+  margin-bottom: 0px;
+  border-radius: 0;
+/*  background: hsla(9, 100%, 64%, 0.5); */
+  background: #FF9900;
+  text-align: center;
+  
+}
+nav ul a:hover {color: red; text-decoration: none;}
+nav ul li:hover{color: #FF9900}
+/* Remove the jumbotron's default bottom margin */ 
+ .jumbotron {
+  margin-bottom: 0;
+}
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #FF9900;
+  padding: 25px;
+}
+.logo{
+    
+}
+.header{
+     
+}
+.headerR{
+    padding: 65px 0;
+    text-align: right;
+}
+.headerR ul {
+    margin-bottom: 0;
+}
+/* Search box */
+.search-box {  
+    padding: 55px 0;
+    display: inline-block;  
+    border-radius: 3px;   
+    text-align: center;
+    position: relative;   
+    -webkit-transition: all 200ms ease-in-out;  
+    -moz-transition: all 200ms ease-in-out;  
+    transition: all 200ms ease-in-out;
+}
+ 
+ 
+.search-box input[type=text] { 
+    width: 100%; 
+    box-shadow: none;  
+    display: inline-block;  
+    padding: 0;  
+    text-indent: 10px;
+    height: 40px;
+}
+ 
+.search-box input[type=text]:hover, .search-box input[type=text]:focus, .search-box input[type=text]:active {  
+    box-shadow: none;
+}
+ 
+.search-box .search-btn {  
+    position: absolute;  
+    right: 2px;  
+    top: 58px;  
+    color: #aaa;  
+    border-radius: 3px;  
+    font-size: 16px;  
+    padding: 5px 10px 1px;  
+    -webkit-transition: all 200ms ease-in-out;  
+    -moz-transition: all 200ms ease-in-out;  
+    transition: all 200ms ease-in-out;
+}
+ 
+.search-box .search-btn:hover {  
+    color: #fff;  
+    background-color: #8FBE00;
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+.sticky {
+  position: fixed;  
+  top: 0;
+  width: 100%;
+  z-index: auto;
+}
+.carousel-inner img {
+      /*-webkit-filter: grayscale(100%);
+      /*filter: grayscale(100%); /* make all photos black and white */ 
+    max-height:300px;
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+}
+
+.carousel{
+/*    margin: 20px 100px 20px 100px;*/
+    
+    z-index: -1;
+}       
